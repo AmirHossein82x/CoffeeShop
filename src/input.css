@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    @font-face {
+      font-family: 'vazir regular';
+      src: url("../fonts/vazir/Vazirmatn-Regular.woff2") format('woff2');
+      font-display: swap;
+    }
+    @font-face {
+        font-family: 'vazir bold';
+        src: url("../fonts/vazir/Vazirmatn-Bold.woff2") format('woff2');
+        font-display: swap;
+      }
+    @font-face {
+    font-family: 'vazir semibold';
+    src: url("../fonts/vazir/Vazirmatn-SemiBold.woff2") format('woff2');
+    font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'diplomat';
+        src: url("../fonts/diplomat/Far_Diplomat.ttf") format('truetype');
+        font-display: swap;
+        }
+  }
