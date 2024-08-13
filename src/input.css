@@ -26,4 +26,9 @@
         src: url("../fonts/diplomat/Far_Diplomat.ttf") format('truetype');
         font-display: swap;
         }
+
+    body {
+        background-image:url("../images/headerBgDesktop.png");
+        background-repeat: no-repeat;
+    }
   }
