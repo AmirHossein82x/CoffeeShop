@@ -2,6 +2,9 @@ const toggleThemeBtns = document.querySelectorAll(".toggle-theme");
 const submenuBtn = document.querySelector("#submenu-open-btn")
 const barsMenuMobile = document.querySelector("#bars-mobile")
 const xMark = document.querySelector("#x-mark-mobile-side-bar")
+const cartBars = document.querySelector("#cart-bars")
+const cartLogoMobile = document.querySelector("#cart-logo-mobile")
+
 
 toggleThemeBtns.forEach(btn => {
     btn.addEventListener("click", function(){
@@ -41,10 +44,24 @@ barsMenuMobile.addEventListener("click", function (e) {
 })
 
 xMark.addEventListener("click", function() {
+    document.querySelector("#side-menu").classList.remove("right-0")
     document.querySelector("#side-menu").classList.add("-right-96")
     let overlay = document.querySelector(".overlay")
     overlay.classList.add("invisible")
     overlay.classList.add("opacity-0")
     
+
+})
+
+cartBars.addEventListener("click", function() {
+    let cartMobile = document.querySelector("#cart-mobile")
+    cartMobile.classList.remove("left-0")
+    cartMobile.classList.add("-left-[260px]")
+})
+
+cartLogoMobile.addEventListener("click", function() {
+    let cartMobile = document.querySelector("#cart-mobile")
+    cartMobile.classList.remove("-left-[260px]")
+    cartMobile.classList.add("left-0")
 
 })
