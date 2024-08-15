@@ -2,6 +2,19 @@
 module.exports = {
   content: ["./public/*.html"],
   darkMode: "class",
+  screens: {
+    'sm': '640px',
+    // => @media (min-width: 640px) { ... }
+
+    'md': '768px',
+    // => @media (min-width: 768px) { ... }
+
+    'lg': '1024px',
+    // => @media (min-width: 1024px) { ... }
+
+    'xl': '1280px',
+    // => @media (min-width: 1280px) { ... }
+  },
   theme: {
     fontFamily :{
       "vazir": "vazir regular",
@@ -32,7 +45,14 @@ module.exports = {
       },
       spacing: {
         "30": "7.5rem"
-      }
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          lg: "0.625rem"
+        }
+      },
       
     },
   },

@@ -4,6 +4,9 @@ const barsMenuMobile = document.querySelector("#bars-mobile")
 const xMark = document.querySelector("#x-mark-mobile-side-bar")
 const cartBars = document.querySelector("#cart-bars")
 const cartLogoMobile = document.querySelector("#cart-logo-mobile")
+const overlay = document.querySelector(".overlay")
+const sideMenu = document.querySelector("#side-menu")
+const cartMobile = document.querySelector("#cart-mobile")
 
 
 toggleThemeBtns.forEach(btn => {
@@ -33,10 +36,9 @@ submenuBtn.addEventListener("click", function (e) {
 
 barsMenuMobile.addEventListener("click", function (e) {
 
-    document.querySelector("#side-menu").classList.remove("-right-96")
-    document.querySelector("#side-menu").classList.add("right-0")
-    document.querySelector(".overlay").classList.remove("hidden")
-    let overlay = document.querySelector(".overlay")
+    sideMenu.classList.remove("-right-96")
+    sideMenu.classList.add("right-0")
+    overlay.classList.remove("hidden")
     overlay.classList.remove("invisible")
     overlay.classList.remove("opacity-0")
 
@@ -44,9 +46,8 @@ barsMenuMobile.addEventListener("click", function (e) {
 })
 
 xMark.addEventListener("click", function() {
-    document.querySelector("#side-menu").classList.remove("right-0")
-    document.querySelector("#side-menu").classList.add("-right-96")
-    let overlay = document.querySelector(".overlay")
+    sideMenu.classList.remove("right-0")
+    sideMenu.classList.add("-right-96")
     overlay.classList.add("invisible")
     overlay.classList.add("opacity-0")
     
@@ -54,14 +55,16 @@ xMark.addEventListener("click", function() {
 })
 
 cartBars.addEventListener("click", function() {
-    let cartMobile = document.querySelector("#cart-mobile")
     cartMobile.classList.remove("left-0")
     cartMobile.classList.add("-left-[260px]")
+    overlay.classList.add("invisible")
+    overlay.classList.add("opacity-0")
 })
 
 cartLogoMobile.addEventListener("click", function() {
-    let cartMobile = document.querySelector("#cart-mobile")
     cartMobile.classList.remove("-left-[260px]")
     cartMobile.classList.add("left-0")
+    overlay.classList.remove("invisible")
+    overlay.classList.remove("opacity-0")
 
 })
