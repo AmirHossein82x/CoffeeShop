@@ -3,6 +3,7 @@ module.exports = {
   content: ["./public/*.html"],
   darkMode: "class",
   screens: {
+    'xs': '480px',
     'sm': '640px',
     // => @media (min-width: 640px) { ... }
 
@@ -53,6 +54,10 @@ module.exports = {
           lg: "0.625rem"
         }
       },
+      backgroundImage: {
+        "home_mobile": "url(../images/headerBgMobile.webp)",
+        "home_desktop": "url(../images/headerBgDesktop.webp)",
+      }
       
     },
   },
