@@ -2,20 +2,7 @@
 module.exports = {
   content: ["./public/*.html"],
   darkMode: "class",
-  screens: {
-    'xs': '480px',
-    'sm': '640px',
-    // => @media (min-width: 640px) { ... }
-
-    'md': '768px',
-    // => @media (min-width: 768px) { ... }
-
-    'lg': '1024px',
-    // => @media (min-width: 1024px) { ... }
-
-    'xl': '1280px',
-    // => @media (min-width: 1280px) { ... }
-  },
+  
   theme: {
     fontFamily :{
       "vazir": "vazir regular",
@@ -23,7 +10,22 @@ module.exports = {
       "vazir-semibold":  "vazir semibold",
       "diplomat": "diplomat"
     },
+    screens: {
+      'xs': '480px',
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+  
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+  
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+  
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
+      
       colors: {
         "brown": {
           100: "#ECE0D1",
@@ -51,8 +53,9 @@ module.exports = {
         center: true,
         padding: {
           DEFAULT: "1rem",
-          lg: "0.625rem"
-        }
+          lg: "0.625rem",
+        }, 
+
       },
       backgroundImage: {
         "home_mobile": "url(../images/headerBgMobile.webp)",
