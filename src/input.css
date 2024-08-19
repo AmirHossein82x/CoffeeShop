@@ -71,7 +71,7 @@
 
   .products {
     background: linear-gradient(rgba(243, 244, 246, 0.65), rgba(243, 244, 246, 0.65)), url("../images/body-bg.png");
-    height: 900px;
+    height: auto;
     background-repeat: no-repeat;
     bg-size: 100%;
 
