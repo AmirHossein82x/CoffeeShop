@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
     <link
       rel="shortcut icon"
       href="./images/fav-icon.png"
@@ -704,7 +705,7 @@
 
       <section class="md:products h-auto">
         <div class="container h-auto">
-          <h2 class="font-diplomat mb-4 mt-20 text-3xl text-blue-400">جدیدترین محصولات</h2>
+          <h2 class="font-diplomat mb-4 mt-20 text-3xl text-zinc-900 dark:text-white">جدیدترین محصولات</h2>
           <div class="flex items-center justify-between">
             <h4 class="dark:text-white font-vazir-bold">فراوری شده از دانه قهوه</h4>
             <a class="flex items-center text-orange-300" href="#">مشاهده همه محصولات <svg class="w-5 h-5"><use href="#arrow-left"></use></svg></a>
@@ -945,10 +946,223 @@
           </div>
         </div>
       </section>
+
+      <!-- best selling -->
+      <section>
+        <div class="container">
+          <h2 class="font-diplomat mb-4 mt-20 text-3xl text-zinc-900 dark:text-white">محصولات پرفروش</h2>
+          <div class="flex items-center justify-between mb-4"> 
+            <h4 class="dark:text-white font-vazir-bold">پیشنهاد قهوه خورها</h4>
+            <div class="flex items-center gap-2">
+              <div class="swiper-button-next-custom flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full shadow-normal bg-white dark:bg-zinc-700 dark:text-white text-zinc-700 transition-all hover:bg-gray-300 dark:hover:bg-white dark:hover:text-zinc-700"><svg class="h-5 w-5 md:w-[26px] md:h-[26px] -rotate-90"><use href="#chewron-down"></use></svg></div>
+              <div class="swiper-button-prev-custom flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full shadow-normal bg-white dark:bg-zinc-700 dark:text-white text-zinc-700 transition-all hover:bg-gray-300 dark:hover:bg-white dark:hover:text-zinc-700"><svg class="h-5 w-5 md:w-[26px] md:h-[26px] rotate-90"><use href="#chewron-down"></use></svg></div>
+            </div>
+          </div>
+
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="bg-white px-5 py-4 rounded-lg">
+                  <div class="mx-auto mb-3">
+                    <img class="w-full overflow-hidden" src="images/products/p7.png" alt="">
+                  </div>
+                  <p class="mb-3">قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی</p>
+                  <span class="text-green-600">۱۷۵,۰۰۰ <span class="font-bold">تومان</span></span>
+                  <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-8 h-8 rounded-full bg-gray-300 p-1 text-gray-600"><use href="#shopping-cart"></use></svg>
+                      <div class="flex flex-col items-center gap-0 text-gray-600">
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-right"></use></svg>
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-left"></use></svg>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <svg class="w-5 h-5 text-gray-300"><use href="#star"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="bg-white px-5 py-4 rounded-lg">
+                  <div class="mx-auto mb-3">
+                    <img class="w-full overflow-hidden" src="images/products/p5.png" alt="">
+                  </div>
+                  <p class="mb-3">قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی</p>
+                  <span class="text-green-600">۱۷۵,۰۰۰ <span class="font-bold">تومان</span></span>
+                  <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-8 h-8 rounded-full bg-gray-300 p-1 text-gray-600"><use href="#shopping-cart"></use></svg>
+                      <div class="flex flex-col items-center gap-0 text-gray-600">
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-right"></use></svg>
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-left"></use></svg>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <svg class="w-5 h-5 text-gray-300"><use href="#star"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="bg-white px-5 py-4 rounded-lg">
+                  <div class="mx-auto mb-3">
+                    <img class="w-full overflow-hidden" src="images/products/p6.png" alt="">
+                  </div>
+                  <p class="mb-3">قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی</p>
+                  <span class="text-green-600">۱۷۵,۰۰۰ <span class="font-bold">تومان</span></span>
+                  <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-8 h-8 rounded-full bg-gray-300 p-1 text-gray-600"><use href="#shopping-cart"></use></svg>
+                      <div class="flex flex-col items-center gap-0 text-gray-600">
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-right"></use></svg>
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-left"></use></svg>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <svg class="w-5 h-5 text-gray-300"><use href="#star"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="bg-white px-5 py-4 rounded-lg">
+                  <div class="mx-auto mb-3">
+                    <img class="w-full overflow-hidden" src="images/products/p7.png" alt="">
+                  </div>
+                  <p class="mb-3">قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی</p>
+                  <span class="text-green-600">۱۷۵,۰۰۰ <span class="font-bold">تومان</span></span>
+                  <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-8 h-8 rounded-full bg-gray-300 p-1 text-gray-600"><use href="#shopping-cart"></use></svg>
+                      <div class="flex flex-col items-center gap-0 text-gray-600">
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-right"></use></svg>
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-left"></use></svg>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <svg class="w-5 h-5 text-gray-300"><use href="#star"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="bg-white px-5 py-4 rounded-lg">
+                  <div class="mx-auto mb-3">
+                    <img class="w-full overflow-hidden" src="images/products/p8.png" alt="">
+                  </div>
+                  <p class="mb-3">قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی</p>
+                  <span class="text-green-600">۱۷۵,۰۰۰ <span class="font-bold">تومان</span></span>
+                  <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-8 h-8 rounded-full bg-gray-300 p-1 text-gray-600"><use href="#shopping-cart"></use></svg>
+                      <div class="flex flex-col items-center gap-0 text-gray-600">
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-right"></use></svg>
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-left"></use></svg>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <svg class="w-5 h-5 text-gray-300"><use href="#star"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="bg-white px-5 py-4 rounded-lg">
+                  <div class="mx-auto mb-3">
+                    <img class="w-full overflow-hidden" src="images/products/p6.png" alt="">
+                  </div>
+                  <p class="mb-3">قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی</p>
+                  <span class="text-green-600">۱۷۵,۰۰۰ <span class="font-bold">تومان</span></span>
+                  <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                      <svg class="w-8 h-8 rounded-full bg-gray-300 p-1 text-gray-600"><use href="#shopping-cart"></use></svg>
+                      <div class="flex flex-col items-center gap-0 text-gray-600">
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-right"></use></svg>
+                        <svg class="w-4 h-4 m-0 p-0"> <use href="#arrow-long-left"></use></svg>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <svg class="w-5 h-5 text-gray-300"><use href="#star"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                      <svg class="w-5 h-5 text-yellow-500"><use href="#star-gold"></use></svg>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+
+
+      </div>
+      </section>
+
+
+      
     </main>
     <div
       class="overlay invisible opacity-0 md:hidden fixed inset-0 w-full h-full bg-black/40 z-10 transition-all duration-300"></div>
 
-    <script src="scripts/app.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          reverseDirection: true,
+        },
+      
+        slidesPerView: 2,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: '.swiper-button-next-custom',
+          prevEl: '.swiper-button-prev-custom',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+         
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+         
+        }
+      });
+    </script>
   </body>
 </html>
